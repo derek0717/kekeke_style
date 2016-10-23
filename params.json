@@ -1,0 +1,6 @@
+{
+  "name": "kekeke 批踢踢風格",
+  "tagline": "一按把kekeke換成黑色風格",
+  "body": "\r\n***\r\n# kekeke 批踢踢風格\r\n## 一按把kekeke換成黑色風格\r\n***\r\n* 利用「使用者定義腳本」在kekeke加入按鈕，一按換成黑色風格\r\n* chrome / firefox\r\n* 開放源碼，自己檢查不包含古怪代碼\r\n* 懂html的同學還能自己修改，做一個屬於自己的風格\r\n***\r\n## 步驟1: 安裝附加元件\r\n1. 要運行「使用者定義腳本」先需要一個chrome / firefox的`附加元件`；如果有安裝過adblock等插件的同學應該不陌生\r\n2. chrome: 到Chrome線上程式商店找`Tampermonkey` （[Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-TW)）\r\n3. firefox: 到附加元件找`Greasemonkey`（[Greasemonkey](https://addons.mozilla.org/zh-TW/firefox/addon/greasemonkey/)）\r\n4. 這兩個猴子插件本身**並沒有任何功能**，可是它們能在指定的網頁上運行用家自定的腳本（有點像網頁的按鍵精靈？）\r\n5. 猴子插件安裝完成後（有可能需要重啟瀏覽器）就可以加入在kekeke使用的自定腳本了\r\n\r\n## 步驟2: 加入腳本\r\n1. 安裝好猴子插件後，每逢見到`~.user.js`字尾的使用者定義腳本路徑，都可以自動進入安裝確認頁面，非常方便\r\n2. 我已經把kekeke用的腳本掛在GitHub上，開放源碼（[https://gist.github.com/dragonairex/37aedc6c5a0344a52a6ecec0153a15ad/raw/d26cf1c0b984bf6e9a392ce8a97f26545cb4acab/blackeke.user.js](blackeke.user.js)）\r\n3. 不放心的同學可以先到GitHub上自行查看代碼，然後再點`RAW`按鈕安裝：\r\n> [gist.github.com/dragonairex/37aedc6c5a0344a52a6ecec0153a15ad](https://gist.github.com/dragonairex/37aedc6c5a0344a52a6ecec0153a15ad)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
